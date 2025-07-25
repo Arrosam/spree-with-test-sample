@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+ulimit -Sn 65536
 if ! gem list foreman -i --silent; then
   echo "Installing foreman..."
   gem install foreman
