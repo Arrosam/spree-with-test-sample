@@ -1,0 +1,28 @@
+{
+  "name": "spree-with-test-sample",
+  "version": "1.0.0",
+  "description": "This is a starter kit for [Spree Commerce](https://spreecommerce.org) - the [open-source eCommerce platform](https://spreecommerce.org) for [Rails](https://spreecommerce.org/category/ruby-on-rails/).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arrosam/spree-with-test-sample.git"
+  },
+  "author": "Samuel Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arrosam/spree-with-test-sample/issues"
+  },
+  "homepage": "https://github.com/Arrosam/spree-with-test-sample#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0"
+  },
+  "dependencies": {
+    "playwright": "^1.54.1",
+    "playwright-core": "^1.54.1"
+  }
+}
