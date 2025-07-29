@@ -6,7 +6,7 @@ import { UserComponents } from '../utils/auth-components';
 
 
 test('has title', async ({ page }) => {
-    await page.goto('http://localhost:3000/');
+    await page.goto("/");
     await page.waitForLoadState('networkidle');
     
     // Expect a title "to contain" a substring.
@@ -18,7 +18,7 @@ test('user registration', async ({ browser }) => {
     });
     const page = await context.newPage();
     const userComponents = new UserComponents(page);
-    await page.goto('http://localhost:3000/');
+    await page.goto("/");
     await page.waitForLoadState('networkidle');
 
     await test.step('User Registration', async () => {

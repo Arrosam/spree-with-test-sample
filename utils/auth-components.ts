@@ -1,4 +1,5 @@
 import { Page, Locator } from '@playwright/test';
+
 export class UserComponents {
     readonly page : Page;
     readonly userIconButton: Locator;
