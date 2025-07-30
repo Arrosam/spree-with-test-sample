@@ -97,5 +97,5 @@ test('user registration', async ({ browser }) => {
 
         // Verify the success message
         await expect(landingPageComponents.messageBanner).toHaveText('You will receive an email with instructions on how to reset your password in a few minutes.');
-    }
+    });
 });
